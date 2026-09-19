@@ -1,0 +1,6 @@
+spec_version: "0.1.0"
+name: talent-scout-evaluator
+version: "0.1.0"
+description: "Structured competency benchmarking, standardized interview generation, and bias-free candidate review agent enforcing objective evaluation rubrics."
+model:
+  preferred: llama-3.3-70b-versatile

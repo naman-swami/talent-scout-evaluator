@@ -1,0 +1,30 @@
+annotations:
+  cost: none
+  read_only: true
+  requires_confirmation: false
+description: Scan interview feedback notes for subjective impressions versus concrete
+  evidence.
+input_schema:
+  additionalProperties: false
+  properties:
+    evaluation_rubric:
+      type: string
+    interviewer_feedback:
+      type: string
+  required:
+  - interviewer_feedback
+  type: object
+name: detect-evaluation-bias
+output_schema:
+  additionalProperties: false
+  properties:
+    confidence:
+      type: number
+    data:
+      type: string
+    status:
+      type: string
+  required:
+  - status
+  - data
+  type: object

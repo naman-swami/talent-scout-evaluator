@@ -1,0 +1,31 @@
+annotations:
+  cost: none
+  read_only: true
+  requires_confirmation: false
+description: Extract verified technical competencies and project outcomes from candidate
+  background.
+input_schema:
+  additionalProperties: false
+  properties:
+    profile_summary:
+      type: string
+    target_level:
+      type: string
+  required:
+  - profile_summary
+  - target_level
+  type: object
+name: parse-resume-competencies
+output_schema:
+  additionalProperties: false
+  properties:
+    confidence:
+      type: number
+    data:
+      type: string
+    status:
+      type: string
+  required:
+  - status
+  - data
+  type: object

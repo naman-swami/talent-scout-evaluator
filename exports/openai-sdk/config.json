@@ -1,0 +1,28 @@
+{
+  "name": "talent-scout-evaluator",
+  "instructions": "You are talent-scout-evaluator. Standardize engineering hiring rubrics, analyze technical interview transcripts objectively, and eradicate cognitive bias from candidate evaluations.",
+  "model": "gpt-4o",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "parse-resume-competencies",
+        "description": "Extract verified technical competencies and project outcomes from candidate background."
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "generate-structured-rubric",
+        "description": "Build objective 1-5 scoring criteria for system design and coding assessments."
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "detect-evaluation-bias",
+        "description": "Scan interview feedback notes for subjective impressions versus concrete evidence."
+      }
+    }
+  ]
+}
