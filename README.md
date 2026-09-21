@@ -55,7 +55,7 @@ talent-scout-evaluator/
 │   └── eeoc_uniform_guidelines.md   # Federal regulatory reference
 ├── tests/
 │   └── test_agent.py                # Talent evaluation test suite
-├── main.py                          # Talent assessment CLI
+├── evaluate.py                          # Talent assessment CLI
 └── requirements.txt
 ```
 
@@ -66,5 +66,5 @@ talent-scout-evaluator/
 pytest tests/ -v
 
 # Audit sample applicant pool
-python main.py --demo
+python evaluate.py --demo
 ```
