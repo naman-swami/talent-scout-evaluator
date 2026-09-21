@@ -1,0 +1,26 @@
+[
+  {
+    "candidate_id": "CAND-01",
+    "name": "Alex Mercer",
+    "group": "MAJORITY",
+    "technical_score": 88.0,
+    "leadership_score": 82.0,
+    "system_design": 90.0
+  },
+  {
+    "candidate_id": "CAND-02",
+    "name": "Elena Rostova",
+    "group": "PROTECTED",
+    "technical_score": 85.0,
+    "leadership_score": 90.0,
+    "system_design": 86.0
+  },
+  {
+    "candidate_id": "CAND-03",
+    "name": "Marcus Vance",
+    "group": "PROTECTED",
+    "technical_score": 72.0,
+    "leadership_score": 70.0,
+    "system_design": 68.0
+  }
+]
